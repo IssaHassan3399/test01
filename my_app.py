@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from datetime import datetime
 
-app = Flask(__name__, template_folder='template')
+app = Flask(__name__)
 
 db = SQLAlchemy(app)
 
